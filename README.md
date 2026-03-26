@@ -4,9 +4,11 @@
 
 Welcome,
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+This is the Code Institute student template for the three Data Analytics capstone projects. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
 
 You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+
+If you are working on the first capstone project, you can also delete `.python-version`, `.slugignore`, `Procfile` and `setup.sh` as they are only required for later dashboard projects. 
 
 ## How to use this repo
 
@@ -18,7 +20,7 @@ You can safely delete the Template Instructions section of this README.md file a
 
 1. Select your `vscode-projects` folder, then click the **Select Folder** button on Windows, or the **Open** button on Mac.
 
-1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open the terminal.
+1. From the top menu in VS Code, select **Terminal** > **New Terminal** to open a new terminal.
 
 1. In the terminal, type `git clone` followed by the URL of your GitHub repository. Then hit **Enter**. This command will download all the files in your GitHub repository into your vscode-projects folder.
 
@@ -26,7 +28,7 @@ You can safely delete the Template Instructions section of this README.md file a
 
 1. This time, navigate to and select the folder for the project you just downloaded. Then, click **Select Folder**.
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
+1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate. You need to create your virtual environment, also called a venv, and then activate it whenever you return to your workspace.
 Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select **Command Palette** to open the VS Code command palette.
 
 1. In the command palette, type: *create environment* and select **Python: Create Environment…**
@@ -35,9 +37,9 @@ Click the gear icon in the lower left-hand corner of the screen to open the Mana
 
 1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
 
-1. **DO NOT** click the box next to `requirements.txt`, as you need to do more steps before you can install your dependencies. Click **OK**.
+1. **DO NOT** click the box next to `requirements.txt`; you need to complete additional steps before installing your dependencies. Click **OK**.
 
-1. You will see a `.venv` folder appear in the file explorer pane to show that the virtual environment has been created.
+1. You will see a `.venv` folder appear in the file explorer pane, indicating that the virtual environment has been created.
 
 1. **Important**: Note that the `.venv` folder is in the `.gitignore` file so that Git won't track it.
 
@@ -51,7 +53,7 @@ Click the gear icon in the lower left-hand corner of the screen to open the Mana
 
 1. Open the `jupyter_notebooks` directory, and click on the notebook you want to open.
 
-1. Click the **kernel** button and choose **Python Environments**.
+1. Click the **Kernel** button, then choose **Python Environments**.
 
 Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it will be Python-3.12.8 if that is what is installed on your PC. To confirm this, you can use the command below in a notebook code cell.
 
@@ -61,7 +63,8 @@ Note that the kernel says `Python 3.12.8` as it inherits from the venv, so it wi
 
 ## Deployment Reminders
 
-* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack currently supported version that closest matches what you used in this project.
+* The `.python-version`, `.slugignore`, `Procfile` and `setup.sh` files are necessary only if you are deploying a Streamlit app to Heroku as part of your submission for units 2 and 3. 
+* Set the `.python-version` Python version to a [Heroku-22](https://devcenter.heroku.com/articles/python-support#supported-runtimes) stack, currently supported version that most closely matches what you used in this project.
 * The project can be deployed to Heroku using the following steps.
 
 1. Log in to Heroku and create an App
